@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 8rem 0;
+}
+
+.content{
+  color: var(--white);
+  max-width: 610px;
+  font-size: 1.2rem;
+  padding: 1.4rem;
+
+  h1{
+    text-transform: uppercase;
+    color: var(--blue-900);
+    font-size: 2rem;
+  }
+}
+
+.social{
+  margin-top: 3rem;
+
+  svg{
+    margin-right: 2rem;
+    transition: color .3s;
+    color: var(--white);
+
+    &:hover{
+      color: var(--blue-900);
+    }
+  }
+}
